@@ -10,6 +10,7 @@ public class PdfgeneratorApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PdfgeneratorApplication.class, args);
+		log.info("Program start ");
 	}
 
 }
