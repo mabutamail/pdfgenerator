@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.zalex</groupId>
-	<artifactId>pdfgenerator</artifactId>
+	<artifactId>documentgenerator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>pdfgenerator</name>
-	<description>PDF generator</description>
+	<name>documentgenerator</name>
+	<description>Document generator</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -41,6 +41,18 @@
 			<groupId>com.github.librepdf</groupId>
 			<artifactId>openpdf</artifactId>
 			<version>1.3.27</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.14.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.xhtmlrenderer</groupId>
+			<artifactId>flying-saucer-pdf-openpdf</artifactId>
+			<version>9.1.22</version>
 		</dependency>
 
 	</dependencies>

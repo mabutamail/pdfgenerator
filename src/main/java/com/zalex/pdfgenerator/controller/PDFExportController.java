@@ -22,7 +22,7 @@ public class PDFExportController {
     @GetMapping("/pdf/generate")
     public void generatePDF(HttpServletResponse response) throws IOException {
         response.setContentType("application/pdf");
-        DateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd:hh:mm:ss");
+        DateFormat dateFormatter = new SimpleDateFormat("dd-MM-yyyy:hh:mm:ss");
         String currentDateTime = dateFormatter.format(new Date());
 
         String headerKey = "Content-Disposition";

@@ -30,7 +30,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.zalex.pdfgenerator" level="debug" additivity="false">
+    <logger name="com.zalex" level="debug" additivity="false">
         <appender-ref ref="FILE"/>
         <appender-ref ref="CONSOLE"/>
     </logger>
