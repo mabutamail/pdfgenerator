@@ -14,8 +14,8 @@ public class PdfgeneratorApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PdfgeneratorApplication.class, args);
 		log.info("Program START ");
+//		Html2PdfUsingOpenHtml.main();	//
 //		convertingUsingFlyingSaucer();
-		Html2PdfUsingOpenHtml.main();
 //		convertingUsingOpenHTML();
 		log.info("Program END ");
 	}
